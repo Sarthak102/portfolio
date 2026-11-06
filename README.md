@@ -14,3 +14,13 @@ pnpm dev
 ## Adding a project
 
 Add it to `src/data/site.ts`. Set `video` to an mp4 in `public/videos` and `href` to its live link.
+
+## Project structure
+
+```
+src/app/         Routes, layout and global styles
+src/components/  Page sections and UI
+src/data/        Site content, including the project list
+src/game/        The Pip game: engine, levels, sprites and sound
+src/lib/         Shared helpers
+```

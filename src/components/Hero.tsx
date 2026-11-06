@@ -17,7 +17,7 @@ import { StatusPill } from "@/components/StatusPill";
 import { Logo } from "@/components/Logo";
 import { PanelFx } from "@/components/PanelFx";
 import { WannaPlay } from "@/components/WannaPlay";
-import { closePortal } from "@/components/portal";
+import { closePortal } from "@/lib/portal";
 
 gsap.registerPlugin(ScrollTrigger, SplitText, ScrambleTextPlugin, useGSAP);
 

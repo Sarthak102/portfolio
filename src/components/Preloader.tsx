@@ -5,7 +5,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { LOGO_PATH } from "@/components/Logo";
 import { lenis } from "@/components/SmoothScroll";
-import { openPortal, portalWaiting } from "@/components/portal";
+import { openPortal, portalWaiting } from "@/lib/portal";
 
 gsap.registerPlugin(useGSAP);
 

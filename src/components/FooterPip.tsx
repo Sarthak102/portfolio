@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { CACTUS, PIP, PIP_LEGS } from "@/game/sprites";
 import { WannaPlay } from "@/components/WannaPlay";
-import { closePortal } from "@/components/portal";
+import { closePortal } from "@/lib/portal";
 
 // Pip pacing the footer's divider line, hopping the cacti that roll toward him, Dino-style.
 // Hover: he stops and asks. Click: he drops through the line as the portal closes on him, straight into level 1.

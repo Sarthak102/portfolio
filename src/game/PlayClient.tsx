@@ -7,7 +7,7 @@ import { LIVES, startLevel, type Input, type Result, type Ui } from "./engine";
 import { LEVELS, checkLevels } from "./levels";
 import { PIP } from "./sprites";
 import { isMuted, setMuted, startMusic, stopMusic } from "./sound";
-import { closePortal, openPortal } from "@/components/portal";
+import { closePortal, openPortal } from "@/lib/portal";
 import { ArrowSwap } from "@/components/ArrowSwap";
 import { Confetti } from "./Confetti";
 import { site } from "@/data/site";
