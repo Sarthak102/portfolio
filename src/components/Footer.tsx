@@ -5,10 +5,9 @@ import {
   Check,
   Copy,
   DownloadSimple,
-  GithubLogo,
-  LinkedinLogo,
 } from "@phosphor-icons/react";
 import { ArrowSwap } from "@/components/ArrowSwap";
+import { SocialIcon } from "@/components/SocialIcon";
 import { Logo } from "@/components/Logo";
 import { StatusPill } from "@/components/StatusPill";
 import { Asterisk } from "@/components/Asterisk";
@@ -143,10 +142,13 @@ export function Footer() {
             <div className="flex flex-wrap items-center gap-2">
               <Logo className="mr-3 size-8" />
               <a href={site.github} target="_blank" rel="noreferrer" aria-label="GitHub" className={icon}>
-                <GithubLogo size={22} />
+                <SocialIcon name="github" tone="dark" size={22} />
               </a>
               <a href={site.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn" className={icon}>
-                <LinkedinLogo size={22} />
+                <SocialIcon name="linkedin" tone="dark" size={22} />
+              </a>
+              <a href={site.x} target="_blank" rel="noreferrer" aria-label="X" className={icon}>
+                <SocialIcon name="x" tone="dark" size={22} />
               </a>
               <span className="ml-2 inline-flex overflow-hidden rounded-full border border-night/30 text-sm">
                 <a

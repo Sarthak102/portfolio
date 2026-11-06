@@ -3,6 +3,7 @@ export const site = {
   email: "sarthakkamble101@gmail.com",
   github: "https://github.com/Sarthak102",
   linkedin: "https://www.linkedin.com/in/sarthak-kamble-101",
+  x: "https://x.com/sarthakkamblex",
   resume: "/Sarthak-Kamble-Resume.pdf",
 };
 

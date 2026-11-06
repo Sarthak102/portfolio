@@ -8,7 +8,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SplitText } from "gsap/SplitText";
 import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin";
 import { useGSAP } from "@gsap/react";
-import { ArrowDownRight, GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
+import { ArrowDownRight } from "@phosphor-icons/react";
+import { SocialIcon } from "@/components/SocialIcon";
 import { builds, experience, projects, site } from "@/data/site";
 import { INTRO_DONE } from "@/components/Preloader";
 import { PixelField } from "@/components/PixelField";
@@ -29,7 +30,7 @@ const facts = [
 ];
 
 const profile =
-  "inline-flex size-12 items-center justify-center rounded-full border border-bone/20 transition duration-300 hover:border-signal hover:text-signal active:scale-[0.98]";
+  "inline-flex size-12 items-center justify-center rounded-full border border-bone/20 transition duration-300 hover:border-signal active:scale-[0.98]";
 
 export function Hero() {
   const scope = useRef<HTMLElement>(null);
@@ -164,10 +165,13 @@ export function Hero() {
               Email me
             </a>
             <a href={site.github} target="_blank" rel="noreferrer" aria-label="GitHub" className={profile}>
-              <GithubLogo size={20} />
+              <SocialIcon name="github" tone="light" size={20} />
             </a>
             <a href={site.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn" className={profile}>
-              <LinkedinLogo size={20} />
+              <SocialIcon name="linkedin" tone="light" size={20} />
+            </a>
+            <a href={site.x} target="_blank" rel="noreferrer" aria-label="X" className={profile}>
+              <SocialIcon name="x" tone="light" size={20} />
             </a>
           </div>
         </div>
