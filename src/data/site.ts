@@ -50,6 +50,17 @@ export const projects: Project[] = [
     video: "/videos/splitsnap-demo.mp4",
     href: "https://splitsnap-wine.vercel.app",
   },
+  {
+    name: "Softstroke",
+    kind: "Open-source icon set",
+    status: "Live",
+    summary:
+      "310 soft, rounded icons, each in stroke and solid under the same name. Published on npm for React, React Native, Vue, Svelte and Angular, plus plain SVG and an icon font, with a site to search and copy any icon.",
+    stack: ["TypeScript", "Next.js", "Python", "SVG", "npm"],
+    preview: "interview",
+    video: "/videos/softstroke-demo.mp4",
+    href: "https://sarthak102.github.io/softstroke/",
+  },
 ];
 
 export const experience = [
