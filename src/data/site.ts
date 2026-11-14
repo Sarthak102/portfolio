@@ -55,11 +55,11 @@ export const projects: Project[] = [
     kind: "Open-source icon set",
     status: "Live",
     summary:
-      "310 soft, rounded icons, each in stroke and solid under the same name. Published on npm for React, React Native, Vue, Svelte and Angular, plus plain SVG and an icon font, with a site to search and copy any icon.",
-    stack: ["TypeScript", "Next.js", "Python", "SVG", "npm"],
+      "367 soft, rounded icons, each in stroke and solid under the same name. Published on npm for React, React Native, Vue, Svelte and Angular and on pub.dev for Flutter, plus plain SVG and an icon font, with a site to search and copy any icon.",
+    stack: ["TypeScript", "Next.js", "Python", "Dart", "SVG", "npm"],
     preview: "interview",
     video: "/videos/softstroke-demo.mp4",
-    href: "https://sarthak102.github.io/softstroke/",
+    href: "https://softstroke.github.io/softstroke/",
   },
 ];
 
